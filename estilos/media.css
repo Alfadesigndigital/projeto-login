@@ -7,11 +7,9 @@
 
     body {
 
-     background-image: linear-gradient(to top, #73604F, #BF8D7A);
-
+     background-image: linear-gradient(to top, #0410f1, #a007d745);
 
     }
- 
 
      section#login {
          
@@ -19,7 +17,7 @@
 
      }
    
-     section#login > div#image {
+     section#login > div#imagem {
 
        float: left;
        width: 30%;
@@ -28,13 +26,12 @@
      }
 
      
-     section#login > div#image {
+     section#login > div#imagem {
 
       float: right;
       width: 70;   
 
-  
-    }
+     }
 }
 
 
@@ -42,7 +39,7 @@
 
     body {
 
-        background-image: linear-gradient(to top, #73604F, #BF8D7A);
+        background-image: linear-gradient(to top, #0410f1, #a007d745);
    
    
        }
@@ -54,7 +51,7 @@
 
       }
 
-      section#login > div#image {
+      section#login > div#imagem {
 
         float: right;
         width: 50%;
@@ -83,18 +80,5 @@
   
   }
 
-
-}
-
-div#formulario > h1 {
-
-      text-align: center;
-      margin-bottom: 10px ;
-
-}
-
-div#formulario > p {
-
-      font-size: 0.8em;
 
 }
