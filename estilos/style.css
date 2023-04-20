@@ -53,16 +53,29 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.375) ;
 
 }
     
 section#login > div#imagem {
-
-    background-color: #73604F url(../imagens/LOGO\ TELEMED\ GENERAL\ \(1\).png) no-repeat ;
+   
+    display: block;
+    background-color: #73604F url(../imagens/ground.jpg) no-repeat ;
     background-size: cover;
     background-position: left bottom;
     height: 200px; 
     
+
+
+}
+
+
+section#login > div#formulario {
+
+    display: block;
+    padding: 10px;
+
+
 
 
 }
