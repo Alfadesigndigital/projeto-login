@@ -55,12 +55,15 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.375) ;
 
+    transition: width 3s, height 0.3s;
+    transition-timing-function: ease;
+
 }
     
-section#login > div#imagem {
+section#login > div#image {
    
     display: block;
-    background-color: #73604F url(../imagens/ground.jpg) no-repeat ;
+     background-color: #73604F url(../imagens/Telemedlogin.jpg) no-repeat ;
     background-size: cover;
     background-position: left bottom;
     height: 200px; 
@@ -69,13 +72,9 @@ section#login > div#imagem {
 
 }
 
-
 section#login > div#formulario {
 
     display: block;
     padding: 10px;
-
-
-
 
 }
