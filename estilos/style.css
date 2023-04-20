@@ -104,10 +104,9 @@ form > div.campo {
 }
 
 div.campo > label {
+  
+    display: none;  
 
-    display: none;
-
-   
 }
 
 form > input[type=submit] {
